@@ -1,0 +1,85 @@
+Create Database Colegio;
+USE Database Colegio;
+CREATE TABLE Alumnos (
+    Id_Alumno INT not null AUTO_INCREMENT,
+    Primary Key (Id_Alumno),
+    Nombre_Alumno Varchar(50),
+    Apellido_Alumno Varchar(50),
+    Edad_Alumno int(99),
+    DNI_Alumno int(10)
+);
+CREATE Table Salones (
+    Numero_Salon int not null,
+    PRIMARY key (Numero_Salon),
+    CantidadAlumnos_Salon int(50)
+);
+Create TABLE Profesores (
+    Id_Profesor int not null AUTO_INCREMENT,
+    PRIMARY key (Id_Profesor),
+    Nombre_Profesor Varchar(50),
+    Apellido_Profesor Varchar(50),
+    Edad_Profesor int(99),
+    DNI_Profesor int(10)
+);
+Insert into Alumnos (Nombre_Alumno, Apellido_Alumno, Edad_Alumno, DNI_Alumno) Values ('Jose', 'Courleander', '14', '95557164');
+Insert into Alumnos (Nombre_Alumno, Apellido_Alumno, Edad_Alumno, DNI_Alumno) Values ('Julian', 'Gobet', '15', '36748957');
+Insert into Alumnos (Nombre_Alumno, Apellido_Alumno, Edad_Alumno, DNI_Alumno) Values ('Francisco', 'Jimenez', '12', '95873437');
+Insert into Alumnos (Nombre_Alumno, Apellido_Alumno, Edad_Alumno, DNI_Alumno) Values ('Inna', 'Ayllon', '13', '95254645');
+Insert into Alumnos (Nombre_Alumno, Apellido_Alumno, Edad_Alumno, DNI_Alumno) Values ('Maximiliano', 'Rio', '12', '30786834');
+Insert into Alumnos (Nombre_Alumno, Apellido_Alumno, Edad_Alumno, DNI_Alumno) Values ('Ana', 'Lopez', '16', '249789439');
+Insert into Alumnos (Nombre_Alumno, Apellido_Alumno, Edad_Alumno, DNI_Alumno) Values ('Barbara', 'Garcia', '17', '95809373');
+Insert into Alumnos (Nombre_Alumno, Apellido_Alumno, Edad_Alumno, DNI_Alumno) Values ('Matias', 'Salinas', '12', '297364857');
+Insert into Alumnos (Nombre_Alumno, Apellido_Alumno, Edad_Alumno, DNI_Alumno) Values ('Cristian', 'Villlar', '13', '39745102');
+Insert into Alumnos (Nombre_Alumno, Apellido_Alumno, Edad_Alumno, DNI_Alumno) Values ('Jesus', 'Suarez', '11', '96234865');
+Insert into Alumnos (Nombre_Alumno, Apellido_Alumno, Edad_Alumno, DNI_Alumno) Values ('Pablo', 'Ciancio', '18', '20374027');
+Insert into Alumnos (Nombre_Alumno, Apellido_Alumno, Edad_Alumno, DNI_Alumno) Values ('Gaston', 'Benzo', '14', '18634094');
+Insert into Alumnos (Nombre_Alumno, Apellido_Alumno, Edad_Alumno, DNI_Alumno) Values ('Andrea', 'Cabrera', '19', '95012854');
+Insert into Alumnos (Nombre_Alumno, Apellido_Alumno, Edad_Alumno, DNI_Alumno) Values ('Mariangel', 'Martinez', '12', '95930738');
+Insert into Alumnos (Nombre_Alumno, Apellido_Alumno, Edad_Alumno, DNI_Alumno) Values ('Daniel', 'Mejias', '15', '95863956');
+Insert into Alumnos (Nombre_Alumno, Apellido_Alumno, Edad_Alumno, DNI_Alumno) Values ('Alicia', 'Guanca', '15', '36748957');
+Insert into Alumnos (Nombre_Alumno, Apellido_Alumno, Edad_Alumno, DNI_Alumno) Values ('Katherine', 'Martinez', '12', '96354096');
+Insert into Alumnos (Nombre_Alumno, Apellido_Alumno, Edad_Alumno, DNI_Alumno) Values ('Jonathan', 'Gonzalez', '14', '947263734');
+Insert into Alumnos (Nombre_Alumno, Apellido_Alumno, Edad_Alumno, DNI_Alumno) Values ('Jose', 'Viloria', '18', '95800256');
+Insert into Alumnos (Nombre_Alumno, Apellido_Alumno, Edad_Alumno, DNI_Alumno) Values ('Reina', 'Gonzalez', '17', '26638938');
+
+Insert into Salones (Numero_Salon, CantidadAlumnos_Salon) Values ('101', '36');
+Insert into Salones (Numero_Salon, CantidadAlumnos_Salon) Values ('102', '43');
+Insert into Salones (Numero_Salon, CantidadAlumnos_Salon) Values ('103', '37');
+Insert into Salones (Numero_Salon, CantidadAlumnos_Salon) Values ('104', '30');
+Insert into Salones (Numero_Salon, CantidadAlumnos_Salon) Values ('201', '25');
+Insert into Salones (Numero_Salon, CantidadAlumnos_Salon) Values ('202', '42');
+Insert into Salones (Numero_Salon, CantidadAlumnos_Salon) Values ('203', '36');
+Insert into Salones (Numero_Salon, CantidadAlumnos_Salon) Values ('204', '34');
+Insert into Salones (Numero_Salon, CantidadAlumnos_Salon) Values ('301', '43');
+Insert into Salones (Numero_Salon, CantidadAlumnos_Salon) Values ('302', '31');
+Insert into Salones (Numero_Salon, CantidadAlumnos_Salon) Values ('303', '48');
+Insert into Salones (Numero_Salon, CantidadAlumnos_Salon) Values ('304', '31');
+Insert into Salones (Numero_Salon, CantidadAlumnos_Salon) Values ('401', '30');
+Insert into Salones (Numero_Salon, CantidadAlumnos_Salon) Values ('402', '39');
+Insert into Salones (Numero_Salon, CantidadAlumnos_Salon) Values ('403', '37');
+Insert into Salones (Numero_Salon, CantidadAlumnos_Salon) Values ('404', '41');
+Insert into Salones (Numero_Salon, CantidadAlumnos_Salon) Values ('501', '49');
+Insert into Salones (Numero_Salon, CantidadAlumnos_Salon) Values ('502', '43');
+Insert into Salones (Numero_Salon, CantidadAlumnos_Salon) Values ('503', '26');
+Insert into Salones (Numero_Salon, CantidadAlumnos_Salon) Values ('504', '33');
+
+Insert into Profesores (Nombre_Profesor, Apellido_Profesor, Edad_Profesor, DNI_Profesor) Values ('Juan', 'Perez', '35', '26532736');
+Insert into Profesores (Nombre_Profesor, Apellido_Profesor, Edad_Profesor, DNI_Profesor) Values ('Miriam', 'Martinez', '43', '20463436');
+Insert into Profesores (Nombre_Profesor, Apellido_Profesor, Edad_Profesor, DNI_Profesor) Values ('Alicia', 'Narvaez', '27', '28603849');
+Insert into Profesores (Nombre_Profesor, Apellido_Profesor, Edad_Profesor, DNI_Profesor) Values ('Roberto', 'Garcia', '52', '14920384');
+Insert into Profesores (Nombre_Profesor, Apellido_Profesor, Edad_Profesor, DNI_Profesor) Values ('Sebastian', 'Mendoza', '37', '26039453');
+Insert into Profesores (Nombre_Profesor, Apellido_Profesor, Edad_Profesor, DNI_Profesor) Values ('Martha', 'Sanchez', '48', '19430245');
+Insert into Profesores (Nombre_Profesor, Apellido_Profesor, Edad_Profesor, DNI_Profesor) Values ('Adrian', 'Barboza', '35', '29434397');
+Insert into Profesores (Nombre_Profesor, Apellido_Profesor, Edad_Profesor, DNI_Profesor) Values ('Ricardo', 'Lopez', '40', '20857363');
+Insert into Profesores (Nombre_Profesor, Apellido_Profesor, Edad_Profesor, DNI_Profesor) Values ('Leticia', 'Mendez', '53', '15837082');
+Insert into Profesores (Nombre_Profesor, Apellido_Profesor, Edad_Profesor, DNI_Profesor) Values ('Augusto', 'Bravo', '36', '25572389');
+Insert into Profesores (Nombre_Profesor, Apellido_Profesor, Edad_Profesor, DNI_Profesor) Values ('Martin', 'Ochoa', '45', '24343567');
+Insert into Profesores (Nombre_Profesor, Apellido_Profesor, Edad_Profesor, DNI_Profesor) Values ('Juan', 'Caballero', '34', '26375766');
+Insert into Profesores (Nombre_Profesor, Apellido_Profesor, Edad_Profesor, DNI_Profesor) Values ('Bianca', 'Espinoza', '48', '18345676');
+Insert into Profesores (Nombre_Profesor, Apellido_Profesor, Edad_Profesor, DNI_Profesor) Values ('Maria', 'Diaz', '32', '26487465');
+Insert into Profesores (Nombre_Profesor, Apellido_Profesor, Edad_Profesor, DNI_Profesor) Values ('Liliana', 'Pedriquez', '25', '36464545');
+Insert into Profesores (Nombre_Profesor, Apellido_Profesor, Edad_Profesor, DNI_Profesor) Values ('Guillermo', 'Reyes', '50', '13756776');
+Insert into Profesores (Nombre_Profesor, Apellido_Profesor, Edad_Profesor, DNI_Profesor) Values ('Agustina', 'Castro', '38', '25364677');
+Insert into Profesores (Nombre_Profesor, Apellido_Profesor, Edad_Profesor, DNI_Profesor) Values ('Andrea', 'Gajo', '54', '15468664');
+Insert into Profesores (Nombre_Profesor, Apellido_Profesor, Edad_Profesor, DNI_Profesor) Values ('Pamela', 'Altamirano', '29', '27854675');
+Insert into Profesores (Nombre_Profesor, Apellido_Profesor, Edad_Profesor, DNI_Profesor) Values ('Alejandro', 'Manrique', '47', '25468765');
